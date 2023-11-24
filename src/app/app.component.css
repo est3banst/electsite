@@ -1,0 +1,22 @@
+.saltologo {
+  width: 100px;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  mix-blend-mode: multiply;
+
+}
+.navbar-brand {
+  font-size: x-large;
+}
+
+.fa {
+  font-size: 1rem;
+  margin: 0;
+}
+.icon-link {
+  text-decoration: none;
+}
+.navbar>.container {
+  justify-content: space-evenly;
+}

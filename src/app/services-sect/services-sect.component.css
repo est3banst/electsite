@@ -1,0 +1,17 @@
+.row {
+  justify-content: space-evenly;
+  font-size: medium;
+  padding: 2rem 0;
+}
+a {
+  text-decoration: none;
+}
+.card {
+  padding: 0 1.1rem;
+}
+.card-group {
+  padding: 2rem 0;
+}
+.card-text {
+  text-align: left;
+}
