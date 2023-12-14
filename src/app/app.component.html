@@ -3,7 +3,7 @@
   <nav class="navbar bg-body-tertiary">
   <div class="container">
     <a href="" class="">
-      <img class="saltologo" src="assets/imgs/saltoinst.png" alt="">
+      <img class="saltologo" src="assets/imgs/saltologo.png" alt="">
     </a>
 <a href="" class="navbar-brand align-text-top">SALTO INSTALACIONES</a>
 <small>SERVICIO TECNICO ESPECIALIZADO</small>
@@ -12,6 +12,10 @@
 </a>
 <a href="#" class="icon-link" target="_blank">
   <i class="fa fa-brands fa-facebook-f" style="color: #537fca;"></i>
+</a>
+
+<a href="#" class="icon-link animated-icon" target="_blank">
+    <fa-icon [icon]="['fas','phone-volume']"></fa-icon>
 </a>
 
 <a href="https://wa.me/+59898414718?text=Hola,%20estoy%20interesado%20en%20un%20presupuesto%20para%20.." class="icon-link" target="_blank">
@@ -23,31 +27,16 @@
 
 
  </div>
-<ul class="nav nav-underline nav-justified">
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-  </li>
 
-  <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">SERVICIOS</a>
-    <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="#">Instalaciones domiciliarias</a></li>
-      <li><a class="dropdown-item" href="#">Mantenimiento industrial</a></li>
-      <li><a class="dropdown-item" href="#">Instalaciones CCTV</a></li>
-      <li><hr class="dropdown-divider"></li>
-      <li><a class="dropdown-item" href="#">PANELES SOLARES</a></li>
-    </ul>
-  </li>
+<div class="container">
+  <div class="text-center">
+    <app-navegat></app-navegat>
 
-  <li class="nav-item">
-    <a class="nav-link" href="#">Clientes satisfechos</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Contactenos</a>
-  </li>
+    <app-mainsection></app-mainsection>
 
+    <app-services-sect></app-services-sect>
 
+    <app-sitefooter></app-sitefooter>
 
-
-</ul>
-<app-mainsection></app-mainsection>
+  </div>
+</div>

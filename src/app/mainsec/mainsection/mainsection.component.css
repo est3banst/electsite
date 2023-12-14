@@ -13,14 +13,10 @@
 
 }
 
-#ctanow {
-  box-shadow: 1px 6px 22px 9px rgba(0,0,0,0.35);
-  -webkit-box-shadow: 1px 9px 22px 9px rgba(0,0,0,0.35);
-  -moz-box-shadow: 1px 6px 22px 9px rgba(0,0,0,0.35);
-}
 
 .card-title {
   color: #179d14;
+
 }
 
 

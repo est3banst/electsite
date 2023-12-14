@@ -1,0 +1,26 @@
+<ul id="ulist" class="nav nav-underline nav-justified">
+  <li class="nav-item">
+    <a class="nav-link" [class.active]="isActive[0]" (click)="setActive(0)" aria-current="page" routerLink="/">Inicio</a>
+  </li>
+
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" [class.active]="isActive[1]" (click)="setActive(1)" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">SERVICIOS</a>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" routerLink="/houseing">Instalaciones domiciliarias</a></li>
+      <li><a class="dropdown-item" routerLink="/industry">Mantenimiento industrial</a></li>
+      <li><a class="dropdown-item" routerLink="/installations">Instalaciones CCTV</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" routerLink="/panels">PANELES SOLARES</a></li>
+    </ul>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" [class.active]="isActive[2]" (click)="setActive(2)" routerLink="works">Clientes satisfechos</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link"  [class.active]="isActive[3]" (click)="setActive(3)" routerLink="contactnow">Contactenos</a>
+  </li>
+
+
+</ul>
+<router-outlet></router-outlet>

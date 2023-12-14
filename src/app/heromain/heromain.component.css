@@ -1,0 +1,26 @@
+.container {
+  margin: 1.2rem auto;
+}
+
+.col-md-4 {
+  margin: auto 0;
+}
+
+.card-body {
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  justify-content: space-around;
+}
+
+.card-title {
+  font-size: 1.6rem;
+  color: #179d14;
+
+}
+
+.card-text {
+  font-size: 1.2rem;
+}

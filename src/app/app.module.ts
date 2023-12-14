@@ -6,19 +6,47 @@ import { AppComponent } from './app.component';
 import { MainsectionComponent } from './mainsec/mainsection/mainsection.component';
 import { ServicesSectComponent } from './services-sect/services-sect.component';
 import { SitefooterComponent } from './sitefooter/sitefooter.component';
+import { HeromainComponent } from './heromain/heromain.component';
+import { NavegatComponent } from './navegat/navegat.component';
+import { HouseingComponent } from './houseing/houseing.component';
+import { IndustryComponent } from './industry/industry.component';
+import { InstallationsComponent } from './installations/installations.component';
+import { PanelsComponent } from './panels/panels.component';
+import { WorksComponent } from './works/works.component';
+import { ContactnowComponent } from './contactnow/contactnow.component';
+import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
+import { faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
     MainsectionComponent,
+    HeromainComponent,
     ServicesSectComponent,
-    SitefooterComponent
+    SitefooterComponent,
+    NavegatComponent,
+    HouseingComponent,
+    IndustryComponent,
+    InstallationsComponent,
+    PanelsComponent,
+    WorksComponent,
+    ContactnowComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  constructor(library: FaIconLibrary) {
+    library.addIcons(
+      faPhoneVolume,
+
+    )
+  }
+}
