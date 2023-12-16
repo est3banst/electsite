@@ -16,6 +16,7 @@ import { WorksComponent } from './works/works.component';
 import { ContactnowComponent } from './contactnow/contactnow.component';
 import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
 import { faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
+import { ClimateComponent } from './climate/climate.component';
 
 
 
@@ -33,6 +34,7 @@ import { faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
     PanelsComponent,
     WorksComponent,
     ContactnowComponent,
+    ClimateComponent,
   ],
   imports: [
     BrowserModule,

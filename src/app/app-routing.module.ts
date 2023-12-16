@@ -7,6 +7,7 @@ import { PanelsComponent } from './panels/panels.component';
 import { WorksComponent } from './works/works.component';
 import { ContactnowComponent } from './contactnow/contactnow.component';
 import { HeromainComponent } from './heromain/heromain.component';
+import { ClimateComponent } from './climate/climate.component';
 
 const routes: Routes = [
   {path: '', component:HeromainComponent},
@@ -15,7 +16,8 @@ const routes: Routes = [
   { path: 'houseing', component: HouseingComponent },
   { path: 'industry', component: IndustryComponent },
   { path: 'installations', component: InstallationsComponent },
-  { path: 'panels', component: PanelsComponent }
+  { path: 'panels', component: PanelsComponent },
+  { path: 'climate', component: ClimateComponent }
 ];
 
 @NgModule({

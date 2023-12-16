@@ -13,12 +13,10 @@
 
 }
 
-
 .card-title {
   color: #179d14;
 
 }
-
 
 .row {
   display: flex;
@@ -26,3 +24,4 @@
   margin-top: 1.3rem;
 
 }
+

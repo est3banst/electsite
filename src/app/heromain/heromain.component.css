@@ -24,3 +24,6 @@
 .card-text {
   font-size: 1.2rem;
 }
+.card {
+  border: none;
+}

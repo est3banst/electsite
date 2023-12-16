@@ -3,19 +3,19 @@
 }
 
 .saltologo {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   margin: 0;
   padding: 0;
   mix-blend-mode: multiply;
 
 }
 .navbar-brand {
-  font-size: x-large;
+  font-size: 1.3rem;
 }
 
 .fa {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin: 0;
 }
 .icon-link {
@@ -26,17 +26,75 @@
 }
 
 .animated-icon {
-  animation: pulse 2s infinite ease-in-out;
+  animation: pulse 2.5s infinite alternate-reverse;
+}
+#center {
+  position: fixed;
+}
+
+#cont-whatsapp{
+  position: fixed;
+  z-index: 667;
+  top: 85%;
+  left: 80%;
+  padding: .8rem;
+  background-color: #25d366;
+  border-radius: 26px;
+}
+#cont-whatsapp span {
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+#whatsapp {
+  position: relative;
+  z-index: 888;
+  font-size: 2rem;
+  color: #e4e4e4;
+  animation: bounce 2s infinite ease-in-out;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1.00);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(0.99);
+  }
 }
 
 @keyframes pulse {
   0% {
-    transform: scale(1);
+    transform: rotate(-35deg);
   }
   50% {
-    transform: scale(1.2);
+    transform: rotate(-120deg);
+  }
+  60% {
+    transform: rotate(-112deg);
+  }
+  70% {
+    transform: rotate(-115deg);
+  }
+  80% {
+    transform: rotate(-120deg);
   }
   100% {
-    transform: scale(1);
+    transform: rotate(-35deg);
+  }
+}
+
+@media only screen and (width < 1400px) {
+  #cont-whatsapp {
+    display: flex;
+    left: 70%;
+  }
+}
+@media only screen and (width < 768px) {
+  #cont-whatsapp {
+    left: 36%;
   }
 }
