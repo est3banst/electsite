@@ -27,3 +27,10 @@
 .card {
   border: none;
 }
+.carousel {
+  margin: 1rem 0;
+}
+.carousel-control {
+  color: #85a2f8;
+
+}

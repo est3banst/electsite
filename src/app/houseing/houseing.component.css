@@ -1,0 +1,8 @@
+.container-text-center {
+margin-top: 2rem;
+margin-bottom: 1.5rem;
+}
+.container-text-center .card-title {
+  padding: 1.1rem 0;
+}
+
