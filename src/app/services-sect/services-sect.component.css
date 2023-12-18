@@ -14,8 +14,13 @@ a {
   padding: 2rem 0;
 }
 .card-text {
-  text-align: left;
+  text-align: center;
+  padding: .4rem;
 }
 .card-footer {
   border-bottom: 1px solid #000;
+}
+.card-body {
+  padding: .4rem;
+  margin-right: .4rem;
 }

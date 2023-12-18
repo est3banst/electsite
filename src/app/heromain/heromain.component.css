@@ -30,7 +30,8 @@
 .carousel {
   margin: 1rem 0;
 }
-.carousel-control {
+.carousel-control-prev-icon, .carousel-control-next-icon {
   color: #85a2f8;
-
+  padding: .7rem;
+  background-color: #40548f;
 }

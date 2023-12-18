@@ -3,8 +3,16 @@
 }
 .lead {
   padding: 1rem 0;
-  background-color: #dbd8d8;
+  background: #e2e8fa;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E2E2E2, #e2e8fa);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E2E2E2, #e2e8fa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   border-radius: 6px;
   font-family: 'Oswald', sans-serif;
 
+}
+.toast {
+  display: flex;
+  padding: .4rem 0;
+  margin: .3rem auto;
 }

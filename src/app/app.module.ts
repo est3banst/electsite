@@ -20,6 +20,7 @@ import { ClimateComponent } from './climate/climate.component';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,7 +35,7 @@ import { ClimateComponent } from './climate/climate.component';
     PanelsComponent,
     WorksComponent,
     ContactnowComponent,
-    ClimateComponent,
+    ClimateComponent
   ],
   imports: [
     BrowserModule,
