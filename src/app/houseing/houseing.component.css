@@ -9,8 +9,25 @@ body {
   text-align: left;
 }
 #ctanow {
-  margin: 1rem 0;
+  margin: 1rem 1.3rem;
 }
+
 .col-md-4 {
   text-align: left;
+  font-family: 'Carrois Gothic', sans-serif;
+}
+#second-card {
+  margin: auto 0;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  color: #85a2f8;
+  padding: .7rem;
+  background-color: #40548f;
+}
+#firstone {
+  max-height: 600px;
+}
+.card-title {
+  font-size: 2.1rem;
 }

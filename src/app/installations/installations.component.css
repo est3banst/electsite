@@ -1,0 +1,19 @@
+.card-body {
+  text-align: left;
+  font-family: 'Oswald', sans-serif;
+}
+
+.col-md-6 img{
+  max-height:600px;
+  max-width: max-content;
+}
+h5 .card-text {
+  font-weight: bold;
+
+}
+.card-title {
+  font-size: 2.1rem;
+}
+#ctanow {
+  margin: 1rem 1.3rem;
+}

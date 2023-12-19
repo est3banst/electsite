@@ -1,0 +1,14 @@
+.col-md-6 img {
+  max-height: 600px;
+}
+.card-title {
+  margin: 1rem 0;
+  font-size: 2.1rem;
+}
+.card-body {
+  text-align: left;
+  font-family: 'Carrois Gothic', sans-serif;
+}
+#ctanow {
+  margin: 1rem 1.3rem;
+}
