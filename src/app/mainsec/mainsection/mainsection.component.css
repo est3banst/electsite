@@ -24,4 +24,11 @@
   margin-top: 1.3rem;
 
 }
-
+button {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.card-title, .card-text {
+  text-align: left;
+}

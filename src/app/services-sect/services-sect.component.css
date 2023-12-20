@@ -9,6 +9,7 @@ a {
 .card {
   padding: 0 1.1rem;
   border: none;
+  font-family: 'Bebas Neue', sans-serif;
 }
 .card-group {
   padding: 2rem 0;

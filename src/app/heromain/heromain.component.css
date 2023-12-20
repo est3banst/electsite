@@ -27,11 +27,20 @@
 .card {
   border: none;
 }
+#firstimg, #secondimg {
+  max-height: 500px;
+}
 .carousel {
   margin: 1rem 0;
 }
 .carousel-control-prev-icon, .carousel-control-next-icon {
   color: #85a2f8;
-  padding: .7rem;
+  font-size: 1.4rem;
   background-color: #40548f;
+}
+span.visually-hidden {
+  padding: .8rem;
+  margin: .4rem;
+  background-color: #40548f;
+  color: #85a2f8;
 }

@@ -94,7 +94,10 @@ nav {
     transform: rotate(-35deg);
   }
 }
-
+.container {
+  padding-bottom: 1rem;
+  margin-bottom: 1.1rem;
+}
 @media only screen and (width < 1400px) {
   #cont-whatsapp {
     display: flex;

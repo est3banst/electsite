@@ -19,8 +19,6 @@ import { faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
 import { ClimateComponent } from './climate/climate.component';
 
 
-
-
 @NgModule({
   declarations: [
     AppComponent,
