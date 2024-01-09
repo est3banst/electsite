@@ -27,8 +27,15 @@
 button {
   margin: auto;
   display: flex;
+  color: #179d14;
   justify-content: center;
+  background-color: #fff;
+  padding: .3rem .6rem;
+  border-radius: 3px;
 }
 .card-title, .card-text {
   text-align: left;
+}
+#ctanow:hover {
+  transform: translateY(2px);
 }

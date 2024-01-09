@@ -1,10 +1,10 @@
 * {
-  font-family: 'Carrois Gothic', sans-serif;
+  font-family: 'Inter', sans-serif;
 
 }
 
 nav {
-  background: #e2e8fa;  /* fallback for old browsers */
+  background: #e2e8fa;
   background: -webkit-linear-gradient(to right, #E2E2E2, #e2e8fa);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #E2E2E2, #e2e8fa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
@@ -18,7 +18,7 @@ nav {
 
 }
 .navbar-brand {
-  font-size: 1.3rem;
+  font-size: 1.8rem;
 }
 
 .fa {
@@ -108,4 +108,8 @@ nav {
   #cont-whatsapp {
     left: 36%;
   }
+}
+
+#beforefooter img {
+  width: 90%;
 }
